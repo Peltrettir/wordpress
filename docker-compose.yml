@@ -4,7 +4,7 @@ services:
     image: mysql:5.7
     restart: always
     volumes:
-      - db_data:/var/lib/mysql
+      - ./db_data:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: password
       MYSQL_DATABASE: wordpress
@@ -19,7 +19,7 @@ services:
     image: wordpress
     restart: always
     volumes:
-      - ./:/var/www/html/wp-content
+      - ./wp_content:/var/www/html/wp-content
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: wordpress
