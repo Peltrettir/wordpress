@@ -44,6 +44,3 @@ services:
 
 networks:
   wp:
-
-volumes:
-  db_data:
