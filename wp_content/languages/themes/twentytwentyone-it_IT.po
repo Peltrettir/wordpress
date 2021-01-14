@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty-One package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-12 11:50:57+0000\n"
+"PO-Revision-Date: 2020-12-27 13:40:51+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,28 +20,30 @@ msgstr "Twenty Twenty-One è una tela bianca per le tue idee, pronta a rendere l
 msgid "Twenty Twenty-One"
 msgstr "Twenty Twenty-One"
 
-#. translators: %s is the wordpress.org Twenty Twenty-One support article URL.
+#: inc/template-tags.php:245
+msgid "Older <span class=\"nav-short\">posts</span>"
+msgstr "<span class=\"nav-short\">Articoli</span> meno recenti"
+
+#: inc/template-tags.php:234
+msgid "Newer <span class=\"nav-short\">posts</span>"
+msgstr "<span class=\"nav-short\">Articoli</span> più recenti"
+
 #: classes/class-twenty-twenty-one-dark-mode.php:189
-msgid "https://wordpress.org/support/article/twenty-twenty-one/"
-msgstr "https://wordpress.org/support/article/twenty-twenty-one/"
+#: classes/class-twenty-twenty-one-customize-notice-control.php:42
+msgid "https://wordpress.org/support/article/twenty-twenty-one/#dark-mode-support"
+msgstr "https://wordpress.org/support/article/twenty-twenty-one/#dark-mode-support"
 
 #: classes/class-twenty-twenty-one-dark-mode.php:192
 msgid "Dark Mode can also be turned on and off with a button that you can find in the bottom right corner of the page."
 msgstr "La modalità scura può essere attivata o disattivata con un pulsante che puoi trovare nell'angolo in basso a destra nella pagina."
 
-#. translators: %s: The post-type name.
-#: inc/template-tags.php:255
-msgid "Older %s"
-msgstr "%s meno recente"
-
-#. translators: %s: The post-type name.
-#: inc/template-tags.php:247
-msgid "Newer %s"
-msgstr "%s più recente"
-
 #: classes/class-twenty-twenty-one-dark-mode.php:407
 msgid "Suggested text:"
 msgstr "Testo suggerito:"
+
+#: classes/class-twenty-twenty-one-dark-mode.php:406
+msgid "Twenty Twenty-One uses LocalStorage when Dark Mode support is enabled."
+msgstr "Twenty Twenty-One utilizza LocalStorage quando il supporto alla modalità scura è abilitato."
 
 #: classes/class-twenty-twenty-one-dark-mode.php:199
 msgid "Dark Mode support"
@@ -104,25 +106,15 @@ msgctxt "Customizer control"
 msgid "Background color"
 msgstr "Colore di sfondo"
 
-#. translators: %s: The post-type singlular name (example: Post, Page etc)
-#: single.php:53
-msgid "Previous %s"
-msgstr "Precedente %s"
-
-#. translators: %s: The post-type singlular name (example: Post, Page etc)
-#: single.php:51
-msgid "Next %s"
-msgstr "Successivo %s"
-
 #. translators: %s: WordPress Version.
 #: inc/back-compat.php:42 inc/back-compat.php:61 inc/back-compat.php:86
 msgid "This theme requires WordPress 5.3 or newer. You are running version %s. Please upgrade."
 msgstr "Questo tema richiede WordPress 5.3 o versione successiva. Stai utilizzando la versione %s. Aggiorna."
 
 #. translators: %: page number.
+#: image.php:46 template-parts/content/content-page.php:36
 #: template-parts/content/content.php:36
-#: template-parts/content/content-page.php:36
-#: template-parts/content/content-single.php:30 image.php:46
+#: template-parts/content/content-single.php:30
 msgid "Page %"
 msgstr "Pagina %"
 
@@ -161,7 +153,7 @@ msgctxt "Font size"
 msgid "XS"
 msgstr "XS"
 
-#: comments.php:88
+#: comments.php:87
 msgid "Leave a comment"
 msgstr "Lascia un commento"
 
@@ -210,8 +202,8 @@ msgstr "&#8220;Autoritratto&#8221; di Berthe Morisot"
 msgid "&#8220;Daffodils&#8221; by Berthe Morisot"
 msgstr "&#8220;Narcisi&#8221; di Berthe Morisot"
 
-#: inc/block-patterns.php:72 inc/block-patterns.php:107
-#: inc/starter-content.php:43
+#: inc/starter-content.php:43 inc/block-patterns.php:72
+#: inc/block-patterns.php:107
 msgid "&#8220;Roses Tremieres&#8221; by Berthe Morisot"
 msgstr "&#8220;Malvarose&#8221; di Berthe Morisot"
 
@@ -288,17 +280,21 @@ msgstr "Malvarose"
 msgid "&#8220;Villa with Orange Trees, Nice&#8221; by Berthe Morisot"
 msgstr "&quot;Villa con alberi di arancio, Nizza&quot; di Berthe Morisot"
 
+#: inc/block-patterns.php:96
+msgid "Beautiful gardens painted by Berthe Morisot in the late 1800s"
+msgstr "Bellissimi giardini dipinti da Berthe Morisot alla fine del 1800"
+
 #: inc/block-patterns.php:96 inc/block-patterns.php:107
 msgid "&#8220;The Garden at Bougival&#8221; by Berthe Morisot"
 msgstr "&#8220;Il giardino di Bougival&#8221; di Berthe Morisot"
 
-#: inc/block-patterns.php:72 inc/block-patterns.php:107
-#: inc/starter-content.php:61
+#: inc/starter-content.php:61 inc/block-patterns.php:72
+#: inc/block-patterns.php:107
 msgid "&#8220;Young Woman in Mauve&#8221; by Berthe Morisot"
 msgstr "&quot;Giovane donna in malva&quot; di Berthe Morisot"
 
-#: inc/block-patterns.php:72 inc/block-patterns.php:107
-#: inc/starter-content.php:51
+#: inc/starter-content.php:51 inc/block-patterns.php:72
+#: inc/block-patterns.php:107
 msgid "&#8220;In the Bois de Boulogne&#8221; by Berthe Morisot"
 msgstr "&quot;Al Bois de Boulogne&quot; di Berthe Morisot"
 
@@ -310,15 +306,14 @@ msgstr "Berthe Morisot<br>(Francese, 1841-1895)"
 msgid "Playing in the Sand"
 msgstr "Giocando nella sabbia"
 
+#: inc/block-patterns.php:60
+msgid "&#8220;Playing in the Sand&#8221; by Berthe Morisot"
+msgstr "&#8220;Giocando nella sabbia&#8221; di Berthe Morisot"
+
 #. translators: %s: parent post.
 #: image.php:59
 msgid "Published in %s"
 msgstr "Pubblicato in %s"
-
-#. translators: There is a space after page.
-#: comments.php:63 inc/template-tags.php:240
-msgid "Page "
-msgstr "Pagina "
 
 #: classes/class-twenty-twenty-one-customize.php:113
 msgid "Summary"
@@ -359,6 +354,14 @@ msgstr "Non c'è nessuna corrispondenza con i termini di ricerca che hai indicat
 #: template-parts/content/content-none.php:43
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr "Pronto per pubblicare il tuo primo articolo? <a href=\"%1$s\">Inizia da qui</a>."
+
+#: single.php:40
+msgid "Previous post"
+msgstr "Articolo precedente"
+
+#: single.php:39
+msgid "Next post"
+msgstr "Articolo successivo"
 
 #. translators: %s: parent post link.
 #: single.php:25
@@ -403,7 +406,7 @@ msgid ", "
 msgstr ", "
 
 #. translators: %s: Name of current post. Only visible to screen readers.
-#: template-parts/content/content-page.php:48 image.php:68 image.php:93
+#: image.php:68 image.php:93 template-parts/content/content-page.php:48
 #: inc/template-tags.php:92 inc/template-tags.php:135
 msgid "Edit %s"
 msgstr "Modifica %s"
@@ -466,6 +469,11 @@ msgstr "Un blocco media e testo con un'immagine grande a sinistra e una più pic
 msgid "Overlapping images"
 msgstr "Immagini sovrapposte"
 
+#: inc/block-patterns.php:59
+msgctxt "Block pattern description"
+msgid "A Media & Text block with a big image on the left and a heading on the right. The heading is followed by a separator and a description paragraph."
+msgstr "Un blocco media e testo con un'immagine grande a sinistra e un'intestazione a destra. L'intestazione è seguita da un separatore e da un paragrafo di descrizione."
+
 #: inc/block-patterns.php:56
 msgid "Media and text article title"
 msgstr "Titolo media e testo articolo"
@@ -490,6 +498,11 @@ msgstr "Twitter"
 msgid "Let&#8217;s Connect."
 msgstr "Mettiamoci in contatto."
 
+#: inc/block-patterns.php:47
+msgctxt "Block pattern description"
+msgid "A huge text followed by social networks and email address links."
+msgstr "Un testo enorme seguito dai link ai social network e all'indirizzo email."
+
 #: inc/block-patterns.php:44
 msgid "Links area"
 msgstr "Area dei link"
@@ -508,9 +521,10 @@ msgstr "A dimensione piena"
 msgid "Published %s"
 msgstr "Pubblicato %s"
 
+#: image.php:43 template-parts/content/content-page.php:33
 #: template-parts/content/content.php:33
-#: template-parts/content/content-page.php:33
-#: template-parts/content/content-single.php:27 image.php:43
+#: template-parts/content/content-single.php:27 inc/template-tags.php:228
+#: comments.php:62
 msgid "Page"
 msgstr "Pagina"
 
@@ -522,7 +536,7 @@ msgstr "Chiudi"
 msgid "Menu"
 msgstr "Menu"
 
-#: template-parts/header/site-nav.php:13 functions.php:76
+#: functions.php:76 template-parts/header/site-nav.php:13
 #: inc/starter-content.php:154
 msgid "Primary menu"
 msgstr "Menu principale"
@@ -563,9 +577,13 @@ msgstr "Dal giallo al verde"
 msgid "Green to yellow"
 msgstr "Dal verde al giallo"
 
+#: functions.php:279
+msgid "Yellow to purple"
+msgstr "Dal giallo al viola"
+
 #: functions.php:274
 msgid "Purple to yellow"
-msgstr "Viola e giallo"
+msgstr "Dal viola al giallo"
 
 #: functions.php:263
 msgid "White"
@@ -644,15 +662,15 @@ msgstr "Proudly powered by %s."
 msgid "Secondary menu"
 msgstr "Menu secondario"
 
-#: comments.php:80
+#: comments.php:79
 msgid "Comments are closed."
 msgstr "I commenti sono chiusi."
 
-#: comments.php:72
+#: comments.php:71
 msgid "Newer comments"
 msgstr "Commenti più recenti"
 
-#: comments.php:68
+#: comments.php:67
 msgid "Older comments"
 msgstr "Commenti meno recenti"
 
@@ -668,7 +686,7 @@ msgstr "Mostra il titolo del sito e il motto"
 msgid "It looks like nothing was found at this location. Maybe try a search?"
 msgstr "Non è stato trovato nulla nel posto in cui stavi cercando. Forse potresti provare con una ricerca?"
 
-#: template-parts/content/content-none.php:30 404.php:16
+#: 404.php:16 template-parts/content/content-none.php:30
 msgid "Nothing here"
 msgstr "Non trovato"
 
