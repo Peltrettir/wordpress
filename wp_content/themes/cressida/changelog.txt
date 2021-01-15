@@ -1,0 +1,37 @@
+== Changelog ==
+
+= 1.2
+* 09/20/2020
+* Fixed: Top nav bar on mobile view
+* Added: Option to show author name
+* Added: wp_body_open hook
+* Updated: Remove WP Instagram Widget, now recommended Social Images Widget
+* Updated: Sample images
+* Updated: Search and tag pages
+* Updated: Bootstrap to latest version
+* Added: Category description on category pages
+
+= 1.1
+* 9/29/2018
+* Updated: Sample images - according to new wordpress.org requirements
+* Updated: Center main menu on smaller screens
+* Updated: Dropdown menu - parent nodes enabled
+* Fixed: Mobile menu alignment with social media menu
+
+= 1.0.3
+* 8/4/2018
+* Added: Fallback for no featured images
+* Updated: Translators for gettext calls with placeholders
+* Updated: False escaping error in comments.php and prefix bootstrap nav walker class
+* Updated: Removed wp_reset_query()
+* Updated: Admin area - unhighlight welcome page menu item
+* Fixed: Static home page - page heading missing
+
+= 1.0.2 =
+* 7/30/2018
+* Updated defaults to comply with wordpress.org requirements
+
+= 1.0.1 =
+* 7/29/2018
+* Initial release
+
